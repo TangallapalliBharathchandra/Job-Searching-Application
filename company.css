@@ -1,0 +1,40 @@
+/* Add your custom styles here */
+
+body {
+    background-color: rgb(248, 205, 132);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3{
+    color: #ff9d00e0;
+}
+
+.card {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn-primary
+ {
+    width: 100%; /* Adjust the width as needed */
+    margin-right: 2%; /* Adjust the spacing between buttons */
+}
+
+.btn-secondary {
+    margin-top: 10px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    opacity: 0.9; /* Adjust the hover effect */
+}
+
+.error-message {
+    color: red;
+}
